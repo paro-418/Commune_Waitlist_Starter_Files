@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font: "Nunito", sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  padding: 3rem 8rem;
+  background-color: #e3eff969;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo {
+  margin: 0 0 0 0;
+}
+
+nav .nav-ul {
+  display: flex;
+  width: 46%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 1.1rem;
+  color: #7a7979;
+}
+
+.join-button {
+  border: none;
+  background-color: #353252;
+  color: #fff;
+  padding: 1.1rem 1.4rem;
+  font-weight: 700;
+  font-family: var(--font);
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+section {
+  display: flex;
+  margin-top: 3rem;
+  column-gap: 5rem;
+}
+
+.main-section {
+  flex-basis: 55.8%;
+}
+.pre-heading {
+  background-color: #372865;
+  color: #c7bce2;
+  padding: 0.5rem 1.4rem;
+  width: 64%;
+  border-radius: 6rem;
+}
+
+.pre-heading-link {
+  color: #c7bce2;
+  font-weight: 700;
+}
+
+.main-heading {
+  margin-top: 1.5rem;
+  color: #353252;
+  font-size: 3rem;
+}
+
+.description {
+  color: #7a7979;
+  margin: 0.6rem 0rem;
+}
+.illustrator {
+  display: inline;
+  width: 29.5%;
+}
+
+.emailinput {
+  width: 78%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.6rem;
+}
+
+.emailinput .input {
+  padding: 1.1rem 1.4rem;
+  height: 100%;
+  width: 73%;
+  border-radius: 5px;
+  border: 1px solid #7a7979;
+}
+
+.input:placeholder-shown {
+  font-size: 1rem;
+  color: #7a7979;
+}
+
+.socials {
+  margin-top: 3rem;
+  width: 36%;
+}
+
+.socials-heading {
+  font-weight: 600;
+  color: #646464;
+}
+
+.companies {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1281px) {
+  section {
+    column-gap: 3rem;
+  }
+  .pre-heading {
+    width: 71%;
+  }
+  .main-section {
+    flex-basis: 62.8%;
+  }
+  .emailinput {
+    margin-top: 1rem;
+  }
+  .pre-heading {
+    width: 71%;
+  }
+  .emailinput .input {
+    width: 70%;
+  }
+  .socials {
+    width: 42%;
+    margin-top: 6rem;
+  }
+  nav .nav-ul {
+    width: 52%;
+  }
+}
