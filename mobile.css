@@ -1,0 +1,49 @@
+@media screen and (max-width:376px){
+    body{
+        padding: 1.6rem;
+    }
+
+    .pre-heading{
+        width: 96.7%;
+    }
+
+    .main-heading{
+        font-size: 2rem;
+        width: 90%;
+        margin: 2rem auto 0 auto;
+    }
+    
+    .description{
+        width: 95%;
+        margin: 1rem auto 0 auto;
+    }
+    
+    .emailinput{
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.6rem;
+    }
+    .emailinput .input{
+        width: 100%;
+    }
+    
+    .join-button{
+        width: 100%;
+    }
+    
+    .socials{
+        width: 87%;
+        margin-top: 2rem;
+    }
+
+    .companies{
+        flex-wrap: wrap;
+        justify-content:start ;
+        row-gap: 0.9rem;
+        column-gap: 0.6rem;
+    }
+
+    .companies img{
+        transform: scale(0.9);
+    }
+}
