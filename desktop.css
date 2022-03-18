@@ -37,6 +37,10 @@ nav ul li {
   color: #7a7979;
 }
 
+.hamburger{
+    display: none;
+}
+
 .join-button {
   border: none;
   background-color: #353252;

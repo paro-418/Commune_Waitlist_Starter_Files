@@ -1,0 +1,35 @@
+@media screen and (max-width:601px){
+    body{
+        text-align: center;
+        padding: 4rem;
+    }
+    .illustrator{
+        display: none;
+    }
+    nav .nav-ul{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    section{
+        display: block;
+    }
+    .pre-heading{
+        font-size: 1rem;
+        width: 97%;
+        margin: 0 auto;
+    }
+
+    .emailinput{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .socials{
+        text-align: start;
+        margin-top: 4rem;
+        width: 88%;
+    }
+
+}
